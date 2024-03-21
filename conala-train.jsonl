@@ -1,40 +1,39 @@
-
-  {
+{
     "intent": "How to convert a list of multiple integers into a single integer?",
     "rewritten_intent": "Concatenate elements of a list 'x' of multiple integers to a single integer",
     "snippet": "sum(d * 10 ** i for i, d in enumerate(x[::-1]))",
     "question_id": 41067960
-  },
+  }
   {
     "intent": "How to convert a list of multiple integers into a single integer?",
     "rewritten_intent": "convert a list of integers into a single integer",
     "snippet": "r = int(''.join(map(str, x)))",
     "question_id": 41067960
-  },
+  }
   {
     "intent": "how to convert a datetime string back to datetime object?",
     "rewritten_intent": "convert a DateTime string back to a DateTime object of format '%Y-%m-%d %H:%M:%S.%f'",
     "snippet": "datetime.strptime('2010-11-13 10:33:54.227806', '%Y-%m-%d %H:%M:%S.%f')",
     "question_id": 4170655
-  },
+  }
   {
     "intent": "Averaging the values in a dictionary based on the key",
     "rewritten_intent": "get the average of a list values for each key in dictionary `d`)",
     "snippet": "[(i, sum(j) / len(j)) for i, j in list(d.items())]",
     "question_id": 29565452
-  },
+  }
   {
     "intent": "zip lists in python",
     "rewritten_intent": "zip two lists `[1, 2]` and `[3, 4]` into a list of two tuples containing elements at the same index in each list",
     "snippet": "zip([1, 2], [3, 4])",
     "question_id": 13704860
-  },
+  }
   {
     "intent": "Prepend the same string to all items in a list",
     "rewritten_intent": "prepend string 'hello' to all items in list 'a'",
     "snippet": "['hello{0}'.format(i) for i in a]",
     "question_id": 13331419
-  },
+  }
   {
     "intent": "regex for repeating words in a string in Python",
     "rewritten_intent": "regex for repeating words in a string `s`",
