@@ -3,14 +3,12 @@
     "rewritten_intent": "Concatenate elements of a list 'x' of multiple integers to a single integer",
     "snippet": "sum(d * 10 ** i for i, d in enumerate(x[::-1]))",
     "question_id": 41067960
-  }
-  {
+  } {
     "intent": "How to convert a list of multiple integers into a single integer?",
     "rewritten_intent": "convert a list of integers into a single integer",
     "snippet": "r = int(''.join(map(str, x)))",
     "question_id": 41067960
-  }
-  {
+  } {
     "intent": "how to convert a datetime string back to datetime object?",
     "rewritten_intent": "convert a DateTime string back to a DateTime object of format '%Y-%m-%d %H:%M:%S.%f'",
     "snippet": "datetime.strptime('2010-11-13 10:33:54.227806', '%Y-%m-%d %H:%M:%S.%f')",
